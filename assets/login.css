@@ -111,3 +111,13 @@ section .signin .content .form .inputBox input
 	font-weight: 500;
 	font-size: 1em;
 }
+section .signin .content .form .inputBox i 
+{
+	position: absolute;
+	left: 0;
+	padding: 15px 10px;
+	font-style: normal;
+	color: #aaa;
+	transition: 0.5s;
+	pointer-events: none;
+}
