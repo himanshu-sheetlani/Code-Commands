@@ -80,8 +80,6 @@ body{
 }
 
 .search-box {
-    display: flex;
-    align-items: center;
     padding-right: 1rem;
     width: 100%;
     color: var(--purple);
@@ -89,12 +87,18 @@ body{
 
 .search-box input {
     padding: 1rem;
-    width: 100%;
+    width: 90%;
     font-size: 1rem;
     font-weight: 500;
     color: var(--purple);
     border: 0;
     outline: 0;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .search-box i {
