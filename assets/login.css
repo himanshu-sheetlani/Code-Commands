@@ -85,3 +85,15 @@ section .signin .content h2
 	color: #07a4ff;
 	text-transform: uppercase;
 }
+section .signin .content .form 
+{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 25px;
+}
+section .signin .content .form .inputBox
+{
+	position: relative;
+	width: 100%;
+}
