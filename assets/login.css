@@ -97,3 +97,17 @@ section .signin .content .form .inputBox
 	position: relative;
 	width: 100%;
 }
+
+section .signin .content .form .inputBox input 
+{
+	position: relative;
+	width: 100%;
+	background: #333;
+	border: none;
+	outline: none;
+	padding: 25px 10px 7.5px;
+	border-radius: 4px;
+	color: #fff;
+	font-weight: 500;
+	font-size: 1em;
+}
