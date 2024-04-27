@@ -121,3 +121,57 @@ section .signin .content .form .inputBox i
 	transition: 0.5s;
 	pointer-events: none;
 }
+.signin .content .form .inputBox input:focus ~ i,
+.signin .content .form .inputBox input:valid ~ i
+{
+	transform: translateY(-7.5px);
+	font-size: 0.8em;
+	color: #fff;
+}
+.signin .content .form .links 
+{
+	position: relative;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.signin .content .form .links a 
+{
+	color: #fff;
+	text-decoration: none;
+}
+.signin .content .form .links a:nth-child(2)
+{
+	color: #000dff;
+	font-weight: 600;
+}
+.signin .content .form .inputBox input[type="submit"]
+{
+	padding: 10px;
+	background: #0009b8;
+	color: #1acfc8;
+	font-weight: 600;
+	font-size: 1.35em;
+	letter-spacing: 0.05em;
+	cursor: pointer;
+}
+input[type="submit"]:active
+{
+	opacity: 0.6;
+}
+@media (max-width: 900px)
+{
+	section span 
+	{
+		width: calc(10vw - 2px);
+		height: calc(10vw - 2px);
+	}
+}
+@media (max-width: 600px)
+{
+	section span 
+	{
+		width: calc(20vw - 2px);
+		height: calc(20vw - 2px);
+	}
+}
