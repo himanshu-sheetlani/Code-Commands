@@ -69,3 +69,19 @@ section .signin
 	border-radius: 4px;
 	box-shadow: 0 15px 35px rgba(0,0,0,9);
 }  
+section .signin .content 
+{
+	position: relative;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 40px;
+}
+section .signin .content h2 
+{
+	font-size: 2em;
+	color: #07a4ff;
+	text-transform: uppercase;
+}
