@@ -16,9 +16,20 @@
     background-color: #fff;
     color: rgb(5, 5, 74);
   }
+  body::-webkit-scrollbar {
+    display: block;
+    width: 8px;
+    background: rgb(5, 5, 74);
+  }
+  body::-webkit-scrollbar-thumb {
+    background-color: #fff;
+  
+    border-radius: 50px;
+  }
   body {
     overflow-x: hidden;
   }
+ 
   #cursor {
     height: 20px;
     width: 20px;
