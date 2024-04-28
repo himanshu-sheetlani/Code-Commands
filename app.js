@@ -22,7 +22,8 @@ h4all.forEach(function (elem) {
   });
 });
 gsap.to("#nav", {
-    backgroundColor: "#000",
+    backgroundColor:"#000",
+//    backgroundColor:"#000"                                                                                                                                                                                                                                      
     duration: 0.5,
     height: "110px",
     scrollTrigger: {
@@ -34,16 +35,27 @@ gsap.to("#nav", {
       scrub: 1,
     },
   });
-  
+  gsap.to("#nav > h4",{
+   x:150
+  });
+  gsap.to("#main > #page1 >h1",{
+    y:20
+
+  }
+
+  )
+//   Shery.imageEffect("#main",{
+//     style:5,debug:true})
+ 
   gsap.to("#main", {
-    backgroundColor: "#000",
+    backgroundColor:"#D4F1F4",
     scrollTrigger: {
       trigger: "#main",
       scroller: "body",
       // markers: true,
       start: "top -25%",
       end: "top -70%",
-      scrub: 2,
+      scrub: 5,
     },
   });
   gsap.from("#about-us img,#about-us-in", {
