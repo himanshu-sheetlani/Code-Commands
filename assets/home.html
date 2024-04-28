@@ -14,17 +14,33 @@
 <body>
     
     <div class="body">
-        <nav>
-            <a href="#">Home <span></span></a>
-            <a href="#">About <span></span></a>
-            <a href="#">Services <span></span></a>
-            <a href="#">Contact <span></span></a>
-            <a href="#">Help <span></span></a>
-            </nav>
-            <div class="logo">
-                <img src="./code comands logo.svg" alt="">
+        <div id="nav">
+            <div id="left">
+                <img src="./code comands logo.svg" alt="logo">
             </div>
-        <h1>Search on Specific Destination</h1>
+            <div id="right">
+                <a href="#">Home <span></span></a>
+                <a href="#">About <span></span></a>
+                <a href="#">Services <span></span></a>
+                <a href="#">Contact <span></span></a>
+                <a href="#">Help <span></span></a>
+            </div>
+        </div>
+        <div class="logo">
+            <img src="./code comands logo.svg" alt="">
+        </div>
+        <h1 class="h1">Search on Specific Destination</h1>
+
+        <div class="toggle">
+            <div id="cdntp">
+            <p id="cdnt">Search on Specific Destination</p>
+          </div>
+              <center><label class="switch">
+                  <input id="tickBox" type="checkbox" onclick="myFunction()">
+                  <span class="slider"></span>
+                </label></center>
+          </div>
+
         <div class="search-bar">
             <div class="dropdown">
                 <div id="drop-text" class="dropdown-text">
@@ -48,13 +64,12 @@
             </div>
         </div>
     </div>
-    <hr>
     <script src="./home.js"></script>
     <script async src="https://cse.google.com/cse.js?cx=361252afb59d74347">
     </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <div class="api">
-        <h1>Search On Whole Internet</h1>
+        <h1 class="h1">Search On Whole Internet</h1>
         <div class="search">
             <div class="gcse-search"></div>
         </div>
