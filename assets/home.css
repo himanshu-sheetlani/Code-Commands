@@ -16,11 +16,25 @@
 }
 
 body{
+    background-color: var(--blue);
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.body{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 70vh;
-    background-color: var(--blue);
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    margin: 70px 0px;
+}
+
+.body h1{
+    color: #fff;
+    margin: 10px;
 }
 
 .search-bar{
@@ -111,4 +125,21 @@ form{
     font-size: 1rem;
     font-weight: 500;
     color: var(--purple);
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+.search {
+    width: 70%;
+}
+
+.api{
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+   color: #fff;
 }
