@@ -69,7 +69,7 @@ body{
     flex-direction: column;
     align-items: center;
     height: auto;
-    margin: 70px 0px;
+    margin-top: 70px;
 }
 
 .h1{
@@ -175,7 +175,7 @@ form{
 .logo{
     display: flex;
     justify-content: center;
-    margin: 20px;
+    margin: 30px;
 }
 
 .search {
@@ -264,4 +264,8 @@ form{
   
   .slider:before {
     border-radius: 25px;
+  }
+
+  .api{
+    display: none;
   }
