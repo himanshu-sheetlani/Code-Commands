@@ -62,6 +62,11 @@ body{
     height: 50px;
 }
 
+#submit{
+    background-color: transparent;
+    border: none;
+}
+
 .body{
     display: flex;
     align-items: center;
