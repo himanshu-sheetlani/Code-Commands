@@ -1,6 +1,6 @@
 :root{
-    --blue: #212146;
-    --purple: #f4ca14;
+    --blue: #181818;
+    --purple: #0009b8;
     --white: #ffffff;
     --shadow: rgba(0,0,0,0.15) 0px 5px 15px 0px00;
     margin-top: 50px;
@@ -24,6 +24,7 @@ body{
 }
 
 .search-bar{
+    margin-top: 80px;
     display: flex;
     align-items: center;
     min-width: 700px;
@@ -79,7 +80,9 @@ body{
     color: var(--purple);
 }
 
-.search-box {
+.search-box{
+
+
     padding-right: 1rem;
     width: 100%;
     color: var(--purple);
