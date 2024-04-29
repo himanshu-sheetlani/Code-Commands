@@ -1,11 +1,36 @@
 let dropdownBtn = document.getElementById("drop-text");
 let list = document.getElementById("list");
 let icon = document.getElementById("icon");
+let h1= document.querySelector(".body .h1")
+let slider=document.querySelector("#tickBox");
 let span = document.getElementById("span");
 let input = document.getElementById("search-input");
 let listItmes = document.querySelectorAll(".dropdown-list-item");
 let form = document.getElementById("form");
+let srchBar= document.querySelector(".search-bar")
+let ggl = document.querySelector(".apiprt")
+// let txt = document.querySelector(".apiprt .h1")
 
+function myFunction() {
+    if ( slider.checked ){
+        srchBar.style.display = "none";   
+        h1.style.display="none";
+        document.querySelector(".api").style.display = "flex";
+        // txt.style.display = "flex";
+        // cdnt.innerText="Code";
+        // body.style.backgroundColor="black";
+        // cdnt.style.color="white";
+    }else{ 
+        srchBar.style.display = "flex";    
+        h1.style.display="flex";
+        document.querySelector(".api").style.display = "none";
+        // txt.style.display = "none";
+        // code.style.display = "none";
+        // cdnt.innerText="Note";
+        // body.style.backgroundColor="white";
+        // cdnt.style.color="black"
+    }
+}
 
 dropdownBtn.onclick = function () {
     //rotate arrow icon
