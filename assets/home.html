@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html >
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
@@ -12,31 +12,44 @@
     <title>Code Commandos</title>
 </head>
 <body>
-    <div class="search-bar">
-        <div class="dropdown">
-            <div id="drop-text" class="dropdown-text">
-                <span id="span">select destination</span>
-                <i id="icon" class="fa-solid fa-chevron-down"></i>
+    <div class="logo">
+        <img src="./code comands logo.svg" alt="">
+    </div>
+    <div class="body">
+        <h1>Search on Specific Destination</h1>
+        <div class="search-bar">
+            <div class="dropdown">
+                <div id="drop-text" class="dropdown-text">
+                    <span id="span">select destination</span>
+                    <i id="icon" class="fa-solid fa-chevron-down"></i>
+                </div>
+                <ul id="list" class="dropdown-list">
+                    <li class="dropdown-list-item">Google</li>
+                    <li class="dropdown-list-item">StackOverFlow</li>
+                    <li class="dropdown-list-item">GitHub</li>
+                    <li class="dropdown-list-item">Youtube</li>
+                    <li class="dropdown-list-item">mdn</li>
+                    <!-- <li class="dropdown-list-item">Network administrator</li> -->
+                </ul>
             </div>
-            <ul id="list" class="dropdown-list">
-                <li class="dropdown-list-item">Google</li>
-                <li class="dropdown-list-item">StackOverFlow</li>
-                <li class="dropdown-list-item">GitHub</li>
-                <li class="dropdown-list-item">Youtube</li>
-                <li class="dropdown-list-item">mdn</li>
-                <li class="dropdown-list-item">Network administrator</li>
-            </ul>
-        </div>
-        <div class="search-box">
-            <form id="form" action="" target="_blank">
-              <input type="text" id="search-input" placeholder="Search Anything" name="q">
-              <i class="fa-solid fa-magnifying-glass"></i>
-            </form>
+            <div class="search-box">
+                <form id="form" action="" target="_blank">
+                  <input type="text" id="search-input" placeholder="Search Anything" name="q">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </form>
+            </div>
         </div>
     </div>
+    <hr>
     <script src="./home.js"></script>
     <script async src="https://cse.google.com/cse.js?cx=361252afb59d74347">
     </script>
-    <div class="gcse-search"></div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <div class="api">
+        <h1>Search On Whole Internet</h1>
+        <div class="search">
+            <div class="gcse-search"></div>
+        </div>
+    </div>
 </body>
 </html>
