@@ -125,8 +125,6 @@ section .signin .content .form .inputBox i
 	color: #aaa;
 	transition: 0.5s;
 	pointer-events: none;
-	z-index: 2;
-
 }
 .signin .content .form .inputBox input:focus ~ i,
 .signin .content .form .inputBox input:valid ~ i
@@ -166,12 +164,6 @@ input[type="submit"]:active
 {
 	opacity: 0.6;
 }
-
-.msg{
-	display: flex;
-	justify-content: center;
-}
-
 @media (max-width: 900px)
 {
 	section span 
