@@ -84,7 +84,6 @@ body{
 }
 
 .search-bar{
-    margin-top: 80px;
     display: flex;
     align-items: center;
     min-width: 660px;
@@ -140,17 +139,10 @@ body{
     margin-left: 0.5rem;
     color: var(--purple);
 }
-<<<<<<< HEAD
-
-.search-box{
-
-
-=======
 #span{
     font-size: 16px;
     font-family: cursive;}
 .search-box {
->>>>>>> b2e5fbab200030090e95ef5f1a82b51df32c6383
     padding-right: 1rem;
     width: 100%;
     color: var(--purple);
